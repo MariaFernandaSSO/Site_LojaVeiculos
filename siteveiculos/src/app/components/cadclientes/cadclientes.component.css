@@ -1,0 +1,40 @@
+.hrImprovisado {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+
+.hrImprovisado > p {
+    position: relative;
+    display: inline-block;
+}
+
+.hrImprovisado > p:before,
+.hrImprovisado > p:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 500px;
+    height: 2px;
+    background: rgb(160, 160, 160);
+}
+
+.hrImprovisado > p:before {
+    right: 100%;
+    margin-right: 13px;
+}
+
+.hrImprovisado > p:after {
+    left: 100%;
+    margin-left: 13px;
+}
+
+.texto {
+    padding: 0px;
+    margin: 0px;
+}
+
+.marginstar {
+    margin-left: 20px;
+}

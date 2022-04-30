@@ -1,0 +1,41 @@
+<div class="container-fluid pt-4 img size">
+  <!--Formulario-->
+      <div class="container w-50 color m-auto p-3 mt-5 pb-5">
+        <div class="text-center pt-3 pb-4">
+          <h3>Cadastro de Veiculo</h3>
+        </div>
+      <form class="ms-4 me-4">
+          <div>
+            <p>Prezado(a) cliente, informe no formulario abaixo os dados para o cadastro da venda de seu veiculo</p>
+          </div>
+<!--Inputs-->
+          <div class="form-floating mt-3 mb-3">
+            <input type="text" class="form-control" id="floatingInput" name="marca" [(ngModel)]="marca">
+            <label for="floatingInput">Marca:</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingPassword" name="modelo" [(ngModel)]="modelo">
+            <label for="floatingPassword">Modelo:</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" name="proprietario" [(ngModel)]="proprietario">
+            <label for="floatingInput">Proprietário:</label>
+          </div>
+          <div class="form-floating mb-4">
+            <input type="number" class="form-control" id="floatingPassword" name="precoVenda" [(ngModel)]="precoVenda">
+            <label for="floatingPassword">Preço de Venda:</label>
+          </div>
+    <!--botões-->   
+          <div class="pt-2">
+            <button type="reset" class="btn btn-primary" style="margin-right: 140px;">Limpar</button>
+            <button type="button" class="btn btn-danger" (click)="salvar()">Cadastrar</button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+
+
+
+
+

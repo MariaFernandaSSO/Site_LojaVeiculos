@@ -1,0 +1,30 @@
+.sizeImg {
+    width: 700px;
+    height: 550px
+}
+.size {
+    width: 700px;
+}
+.posicao{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.texto {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.texto2 {
+    font-size: 17px;
+}
+
+.texto3 {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.botao{
+    padding-top: 70px;
+}

@@ -1,0 +1,43 @@
+.img {
+    background-image: url("../../../assets/img/carro1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+ }
+
+ .texto1 {
+    font-size: 18px;
+    color: white;
+ }
+
+ .position {
+     margin-left: 40px;
+ }
+ .size {
+     height: 400px;
+     width: 600px;
+     padding-top:90px;
+     margin-left: 20px;
+     padding-left: 30px;
+ }
+
+ .size2 {
+     height:200px;
+     width: 500px;
+     padding-top: 50px;
+     padding-left: 30px;
+     background-color: rgba(0, 0, 0, 0.411);
+ }
+
+.link {
+   color: inherit;
+}
+
+.ab {
+    padding-right: 30px;
+}
+
+.textoPreco {
+    font-size: 22px;
+    font-weight: 640;
+}

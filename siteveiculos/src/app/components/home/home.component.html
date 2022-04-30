@@ -1,0 +1,62 @@
+
+ 
+ <!--Parte da img-->
+  <div class="img texto1">
+      <div class="size">
+          <div class="size2">
+          <div>
+          <span>Procurando carros? compre aqui!</span>
+          </div>
+          <div class="pt-3 pb-2"><button type="button" class="btn btn-outline-light" routerLink="/Veiculos">Veja o catalago</button></div>
+          </div>
+      </div>
+  </div>
+
+<!--Recomendados-->
+
+<div class="p-5">
+    <h1>RECOMENDADOS PARA VOCÊ</h1>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4 ps-5 me-3">
+  <div  class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="{{carros[0].img}}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{carros[0].title}}</h5>
+        <p class="card-text"><small>{{carros[0].desc}}</small></p>
+        <p class="card-text textoPreco">{{carros[0].preco}}</p>
+        <div class="d-grid">
+          <button type="button" class="btn btn-outline-dark" routerLink="/detalhes/{{carros[0].indice}}">VER OFERTA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="{{carros[1].img}}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{carros[1].title}}</h5>
+        <p class="card-text"><small>{{carros[1].desc}}</small></p>
+        <p class="card-text textoPreco">{{carros[1].preco}}</p>
+        <div class="d-grid">
+          <button type="button" class="btn btn-outline-dark" routerLink="detalhes/{{carros[1].indice}}">VER OFERTA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div  class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="{{carros[2].img}}" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{carros[2].title}}</h5>
+        <p class="card-text"><small>{{carros[2].desc}}</small></p>
+        <p class="card-text textoPreco">{{carros[2].preco}}</p>
+        <div class="d-grid">
+          <button type="button" class="btn btn-outline-dark" routerLink="detalhes/{{carros[2].indice}}">VER OFERTA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
